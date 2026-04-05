@@ -193,3 +193,5 @@ Thumbs.db
 .vscode/
 
 **/.langgraph_api/
+
+.specstory

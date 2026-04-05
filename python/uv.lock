@@ -716,6 +716,23 @@ wheels = [
 ]
 
 [[package]]
+name = "groq"
+version = "0.37.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "anyio" },
+    { name = "distro" },
+    { name = "httpx" },
+    { name = "pydantic" },
+    { name = "sniffio" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e9/78/18948a9056e1509c87e10ab8316a90ecce87035fbd53342dffdf97f4de00/groq-0.37.1.tar.gz", hash = "sha256:7353d6dfb60834fd7aacbb86af106e2dc2aeaff6d0edd65fb2fd0f16bd39314c", size = 145289, upload-time = "2025-12-04T18:08:07.118Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5f/d6/645a081750e43f858b7d09dce5d8e1e76cf11e7e4bdba81252e04f78963d/groq-0.37.1-py3-none-any.whl", hash = "sha256:b49f8c8898c55eaec9f71f1342f3fcacc9560d67a08ce5f35fbfb84e8dacd3da", size = 137494, upload-time = "2025-12-04T18:08:05.801Z" },
+]
+
+[[package]]
 name = "grpcio"
 version = "1.76.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1406,6 +1423,24 @@ wheels = [
 ]
 
 [[package]]
+name = "langchain-cloudflare"
+version = "0.3.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "httpx" },
+    { name = "langchain-core" },
+    { name = "pydantic" },
+    { name = "requests" },
+    { name = "sqlalchemy" },
+    { name = "sqlalchemy-cloudflare-d1" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a3/db/c3bba7dca106f0b99579a3844b8c0eab80360e7ad69f113a89db795256c1/langchain_cloudflare-0.3.1.tar.gz", hash = "sha256:1c81a1736a06cef4eb1f2eb854559a0a793de55185549da35aec79ada84705b7", size = 84803, upload-time = "2026-04-01T17:10:00.701Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4f/ca/466979b259825c9320542075e67add3177c9fc7caf4e19a94d06cb90b007/langchain_cloudflare-0.3.1-py3-none-any.whl", hash = "sha256:d93f273e859c955d09d50418654bffd02f38a6b05f77a8d2357ce209745cc481", size = 46286, upload-time = "2026-04-01T17:09:59.457Z" },
+]
+
+[[package]]
 name = "langchain-community"
 version = "0.4.1"
 source = { registry = "https://pypi.org/simple" }
@@ -1445,6 +1480,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/b1/a3/c4cd6827a1df46c821e7214b7f7b7a28b189e6c9b84ef15c6d629c5e3179/langchain_core-1.2.22.tar.gz", hash = "sha256:8d8f726d03d3652d403da915126626bb6250747e8ba406537d849e68b9f5d058", size = 842487, upload-time = "2026-03-24T18:48:44.9Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c7/a6/2ffacf0f1a3788f250e75d0b52a24896c413be11be3a6d42bcdf46fbea48/langchain_core-1.2.22-py3-none-any.whl", hash = "sha256:7e30d586b75918e828833b9ec1efc25465723566845dd652c277baf751e9c04b", size = 506829, upload-time = "2026-03-24T18:48:43.286Z" },
+]
+
+[[package]]
+name = "langchain-groq"
+version = "1.1.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "groq" },
+    { name = "langchain-core" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3d/d9/bbaa43598fcaffb669c5aea4088d92c77a426c46d25a013c21c979772a54/langchain_groq-1.1.2.tar.gz", hash = "sha256:67d1d752fb6590be517735947ec49b4ab9ed9191c7cca79f105d227775c67ae5", size = 178337, upload-time = "2026-02-02T15:57:29.435Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e8/11/71a35db3ed8ac2c7129eb69f0d590e4961be67ac84b6c470fc097d0dd7c8/langchain_groq-1.1.2-py3-none-any.whl", hash = "sha256:1f59f12233e8e6280c968bca6c40a7e5434e971e9a5387ad23c4c64ec776de10", size = 19450, upload-time = "2026-02-02T15:57:28.6Z" },
 ]
 
 [[package]]
@@ -1805,6 +1853,15 @@ wheels = [
 ]
 
 [[package]]
+name = "models-dev"
+version = "1.0.237"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/a7/eb/99059413e619c7dcec4d1144089a19df3950e6e9d0536a47c6640c2f6e88/models_dev-1.0.237.tar.gz", hash = "sha256:96542b57e99c3131e99e394c217240b549f8ec5d918a4216e3af1b6d488cc5b1", size = 161352, upload-time = "2026-04-04T19:25:26.186Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/68/e2/f558f068165653a752b298e60ea2ac2f158a30d61dae90336414ec9050b0/models_dev-1.0.237-py3-none-any.whl", hash = "sha256:6e5112c39337884348feaa6c1ce3cfec68197af10f0b3e0d48896ce1c2db535c", size = 146464, upload-time = "2026-04-04T19:25:24.453Z" },
+]
+
+[[package]]
 name = "multidict"
 version = "6.7.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2047,12 +2104,15 @@ dependencies = [
     { name = "jupyter" },
     { name = "langchain" },
     { name = "langchain-anthropic" },
+    { name = "langchain-cloudflare" },
     { name = "langchain-community" },
     { name = "langchain-core" },
+    { name = "langchain-groq" },
     { name = "langchain-mcp-adapters" },
     { name = "langchain-openai" },
     { name = "langgraph" },
     { name = "langgraph-cli", extra = ["inmem"] },
+    { name = "models-dev" },
 ]
 
 [package.optional-dependencies]
@@ -2067,12 +2127,15 @@ requires-dist = [
     { name = "jupyter", specifier = ">=1.0.0" },
     { name = "langchain", specifier = ">=1.0.0" },
     { name = "langchain-anthropic", specifier = ">=1.0.0" },
+    { name = "langchain-cloudflare", specifier = ">=0.1.0" },
     { name = "langchain-community", specifier = ">=0.4" },
     { name = "langchain-core", specifier = ">=1.0.0" },
+    { name = "langchain-groq", specifier = ">=1.0.0" },
     { name = "langchain-mcp-adapters" },
     { name = "langchain-openai", specifier = ">=1.0.0" },
     { name = "langgraph", specifier = ">=1.0.0" },
     { name = "langgraph-cli", extras = ["inmem"], specifier = ">=0.4.0" },
+    { name = "models-dev", specifier = ">=1.0.0" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.11.1" },
     { name = "nbdime", marker = "extra == 'dev'", specifier = ">=4.0.2" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.6.1" },
@@ -3160,6 +3223,20 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/a1/d8/41e0bdfc0f930ff236f86fccd12962d8fa03713f17ed57332d38af6a3782/sqlalchemy-2.0.46-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:b2a9f9aee38039cf4755891a1e50e1effcc42ea6ba053743f452c372c3152b1b", size = 3464292, upload-time = "2026-01-21T18:33:08.208Z" },
     { url = "https://files.pythonhosted.org/packages/f0/8b/9dcbec62d95bea85f5ecad9b8d65b78cc30fb0ffceeb3597961f3712549b/sqlalchemy-2.0.46-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:db23b1bf8cfe1f7fda19018e7207b20cdb5168f83c437ff7e95d19e39289c447", size = 3473497, upload-time = "2026-01-21T18:45:10.552Z" },
     { url = "https://files.pythonhosted.org/packages/fc/a1/9c4efa03300926601c19c18582531b45aededfb961ab3c3585f1e24f120b/sqlalchemy-2.0.46-py3-none-any.whl", hash = "sha256:f9c11766e7e7c0a2767dda5acb006a118640c9fc0a4104214b96269bfb78399e", size = 1937882, upload-time = "2026-01-21T18:22:10.456Z" },
+]
+
+[[package]]
+name = "sqlalchemy-cloudflare-d1"
+version = "0.3.8"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "httpx" },
+    { name = "sqlalchemy" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/16/fa/fd1f2ea0231e37902d3aca1fc50d3c696d0a79190cec6a16db356808b7f7/sqlalchemy_cloudflare_d1-0.3.8.tar.gz", hash = "sha256:e72f7f3d40b6dd231277a9a59947fca972848b36bab5cab11b4c0de250ebeede", size = 412827, upload-time = "2026-02-14T21:48:22.592Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/9f/4f/df2c0cab07be7f2d74f5ca1d60814ab3eb4d47cb34eb9f15793567f6466b/sqlalchemy_cloudflare_d1-0.3.8-py3-none-any.whl", hash = "sha256:2a12d45101af000d1d2c0bded317bad5636b7ad75ab70ffcb8e37b85d925070d", size = 27317, upload-time = "2026-02-14T21:48:20.936Z" },
 ]
 
 [[package]]
